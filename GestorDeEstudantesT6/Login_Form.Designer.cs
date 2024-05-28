@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_Form));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxUsuario = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,10 +51,9 @@
             // 
             // pictureBoxUsuario
             // 
-            this.pictureBoxUsuario.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxUsuario.Image")));
-            this.pictureBoxUsuario.Location = new System.Drawing.Point(105, 93);
+            this.pictureBoxUsuario.Location = new System.Drawing.Point(115, 105);
             this.pictureBoxUsuario.Name = "pictureBoxUsuario";
-            this.pictureBoxUsuario.Size = new System.Drawing.Size(130, 127);
+            this.pictureBoxUsuario.Size = new System.Drawing.Size(116, 120);
             this.pictureBoxUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxUsuario.TabIndex = 1;
             this.pictureBoxUsuario.TabStop = false;
