@@ -205,6 +205,7 @@
             this.buttonEnviarFoto.TabIndex = 15;
             this.buttonEnviarFoto.Text = "enviar foto";
             this.buttonEnviarFoto.UseVisualStyleBackColor = true;
+            this.buttonEnviarFoto.Click += new System.EventHandler(this.buttonEnviarFoto_Click);
             // 
             // buttonCadastrar
             // 
@@ -214,6 +215,7 @@
             this.buttonCadastrar.TabIndex = 16;
             this.buttonCadastrar.Text = "Cadastrar";
             this.buttonCadastrar.UseVisualStyleBackColor = true;
+            this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
             // 
             // buttonCancelar
             // 
